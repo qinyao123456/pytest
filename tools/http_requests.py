@@ -21,4 +21,5 @@ if __name__ == '__main__':
         "type": "login"
     }
     res= HttpRequests().http_requests('post',url,data)
+    print(res)
 
